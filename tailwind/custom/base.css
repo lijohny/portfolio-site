@@ -11,6 +11,20 @@
  * `theme.json` file and is applied both to the frontend and in the block
  * editor.
 */
+
 body {
-	@apply bg-background text-foreground font-sans;
+	@apply font-sans bg-background text-foreground;
 }
+
+header {
+	@apply fixed top-0 z-50 flex items-center justify-between w-full px-40 py-6 dark:text-slate-100;
+}
+nav {
+	@apply flex items-center justify-between gap-6;
+}
+.menu ul {
+	@apply flex items-center justify-between gap-6;
+}
+
+
+
